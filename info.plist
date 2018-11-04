@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.kamx.alfred.crate</string>
+	<string>me.kamx.alfred.crates-io</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -40,26 +40,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>A0E66317-3F87-4744-9ED3-2F7B4AE24072</string>
-				<key>modifiers</key>
-				<integer>8388608</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Kam Y. Tse</string>
 	<key>description</key>
-	<string>Search Rust Package Registry</string>
+	<string>Search crates on crates.io</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>alfred-crate</string>
+	<string>alfred-crates</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -80,23 +70,6 @@
 			<string>9AACDE6D-BC3F-4237-B56E-A5ED381CA550</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>81ED3ABE-F4BF-4ADD-A9E0-80A35A190744</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -148,21 +121,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
 				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>66E6469E-84D0-442A-8A2C-9D5A7EE0F59A</string>
+			<string>81ED3ABE-F4BF-4ADD-A9E0-80A35A190744</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -179,15 +150,13 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>A0E66317-3F87-4744-9ED3-2F7B4AE24072</string>
+			<string>66E6469E-84D0-442A-8A2C-9D5A7EE0F59A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Keywords are one of Alfred's most commonly used and most useful ways of launching actions. Set a keyword and connect it to the action(s) you want to perform.
-
-Type your keyword into Alfred, followed by your input text if needed, and you'll be on your way to boosting your productivity!</string>
+	<string>A workflow to search crates in crates.io</string>
 	<key>uidata</key>
 	<dict>
 		<key>66E6469E-84D0-442A-8A2C-9D5A7EE0F59A</key>
@@ -200,9 +169,9 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 		<key>6E4B8B35-0819-4FB2-8955-D8D0E28775C1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>220</integer>
 		</dict>
 		<key>81ED3ABE-F4BF-4ADD-A9E0-80A35A190744</key>
 		<dict>
@@ -218,16 +187,9 @@ Type your keyword into Alfred, followed by your input text if needed, and you'll
 			<key>ypos</key>
 			<integer>90</integer>
 		</dict>
-		<key>A0E66317-3F87-4744-9ED3-2F7B4AE24072</key>
-		<dict>
-			<key>xpos</key>
-			<integer>630</integer>
-			<key>ypos</key>
-			<integer>470</integer>
-		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0</string>
+	<string>0.1</string>
 	<key>webaddress</key>
 	<string>https://kamx.me</string>
 </dict>
