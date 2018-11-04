@@ -122,7 +122,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Fetching items from https://crates.io, please wait ...</string>
+				<string>Getting crates from https://crates.io</string>
 				<key>script</key>
 				<string></string>
 				<key>scriptargtype</key>
@@ -132,7 +132,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Search Rust Package Registry</string>
+				<string>Search Cargo Package Registry</string>
 				<key>type</key>
 				<integer>8</integer>
 				<key>withspace</key>
